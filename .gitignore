@@ -1,0 +1,11 @@
+*.o
+*.out
+a.out
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+.ipynb_checkpoints/
+__pycache__/
+*.so
+build/
+smoketest
