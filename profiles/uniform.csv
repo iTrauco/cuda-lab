@@ -1,0 +1,6 @@
+==PROF== Connected to process 1202603 (/home/trauco/cuda-lab/build/kernels)
+ran uniform | block=256 grid=4096 | sync: no error
+==PROF== Disconnected from process 1202603
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","1202603","kernels","127.0.0.1","uniform(float *, const float *, int)","1","7","(256, 1, 1)","(4096, 1, 1)","0","8.6","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","79.46"
+"0","1202603","kernels","127.0.0.1","uniform(float *, const float *, int)","1","7","(256, 1, 1)","(4096, 1, 1)","0","8.6","Command line profiler metrics","smsp__thread_inst_executed_per_inst_executed.ratio","","32"
