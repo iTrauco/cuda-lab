@@ -1,11 +1,26 @@
+# compiled object files and binaries
 *.o
 *.out
 a.out
+smoketest
+
+# shared libraries (compiled CUDA/C++ modules)
+*.so
+
+# profiler report files (Nsight Compute / Systems output)
 *.ncu-rep
 *.nsys-rep
 *.qdrep
+
+# Jupyter autosave snapshots
 .ipynb_checkpoints/
+
+# Python bytecode cache
 __pycache__/
-*.so
+
+# build output (compiled binaries)
 build/
-smoketest
+
+# profiler output, but keep the CSV reports
+profiles/*
+!profiles/*.csv
